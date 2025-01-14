@@ -10,3 +10,10 @@ Note: This repository contains some fitted tire data files, so you won't need th
 2. Add [Magic Formula Tyre Tool](https://www.mathworks.com/matlabcentral/fileexchange/111375-magic-formula-tyre-tool) to your MATLAB Toolbox, this will make ```magicformula()``` function available.
 
 3. Place the fitted tire data and the scripts in the same path in your MATLAB, and run the scripts.
+
+## List of Tire Models
+
+### FYvsSA_fitted.m
+
+Generates a lateral force (FY) vs. slip angle (SA) graph based on fitted tire data. <br/>
+Needs to use files from "Fitted Data" folder or fit yourself using MagicFormulaTyreTool.
