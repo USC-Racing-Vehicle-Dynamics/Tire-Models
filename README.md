@@ -11,6 +11,20 @@ Note: This repository contains some fitted tire data files, so you won't need th
 
 3. Place the fitted tire data and the scripts in the same path in your MATLAB, and run the scripts.
 
+## Tire Data Explained
+
+### Run Data
+
+Discrete data points obtained from the main process of the tire test. Often used for fitting.
+
+### Raw Data
+
+Discrete data points obtained from the entire tire test. By extracting some data points it can conduct analyses that Run Data cannot do, but won't fit as well as Run Data.
+
+### Fitted Data
+
+Data processed by MagicFormulaTyreTool that fit discrete data points into lines. When the .mat file is assigned to a MATLAB structure array, you can take this array as an input to the ```magicformula()``` function to obtain results from custom parameter inputs.
+
 ## List of Tire Models
 
 ### FYvsSA_fitted.m
