@@ -1,5 +1,7 @@
 %% Tire Friction Ellipse (Curve Fit)
 
+% USC Racing 2024 - Tianpai Le
+
 % This script plots one set of tire friction ellipse data, picks the outer
 % perimeter of data points, and fits them with a closed curve
 
