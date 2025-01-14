@@ -1,5 +1,7 @@
 %% Tire Force Analysis: Lateral Force vs. Slip Angle (Fitted Data)
 
+% USC Racing 2024 - Tianpai Le
+
 % Compare lateral force vs. slip angle for different tires, with the peak
 % lateral force displayed. The lateral force is computed from fitted tire
 % models
