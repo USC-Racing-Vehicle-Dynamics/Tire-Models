@@ -32,6 +32,11 @@ Data processed by MagicFormulaTyreTool that fit discrete data points into lines.
 Generates a lateral force (FY) vs. slip angle (SA) graph based on fitted tire data. <br/>
 Needs to use files from "Fitted Data" folder or fit yourself using MagicFormulaTyreTool.
 
+### tireTemperatureAnalysis.m
+
+Compares the lateral force (FY) and coeffcient of friction with respect to temperature of two selected tire models. <br/>
+Also compares the tire temperature vs. time during the heating process.
+
 ### frictionEllipse.m
 
 Generates a friction ellipse based on selected fitted tire data with varying slip angles/ratios. <br/>
