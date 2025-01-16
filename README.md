@@ -37,7 +37,7 @@ Needs to use files from "Fitted Data" folder or fit yourself using MagicFormulaT
 Compares the lateral force (FY) and coeffcient of friction with respect to temperature of two selected tire models. <br/>
 Also compares the tire temperature vs. time during the heating process.
 
-### frictionEllipse.m
+### tireFrictionEllipse.m
 
 Generates a friction ellipse based on selected fitted tire data with varying slip angles/ratios. <br/>
 Fit the furthest data points from origin with curve to represent the maximum possible friction ellipse.
