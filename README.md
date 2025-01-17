@@ -32,12 +32,32 @@ Data processed by MagicFormulaTyreTool that fit discrete data points into lines.
 Generates a lateral force (FY) vs. slip angle (SA) graph based on fitted tire data. <br/>
 Needs to use files from "Fitted Data" folder or fit yourself using MagicFormulaTyreTool.
 
-### tireTemperatureAnalysis.m
+### camberStiffness_loadSensitivity.m
 
-Compares the lateral force (FY) and coeffcient of friction with respect to temperature of two selected tire models. <br/>
-Also compares the tire temperature vs. time during the heating process.
+Plots the slope between the difference in lateral force (FY) and the difference in camber (IA).
+
+### tireCorneringStiffness_loadSensitivity.m
+
+Plots the slope between the difference in lateral force (FY) and the difference in slip angles (SA).
 
 ### tireFrictionEllipse.m
 
 Generates a friction ellipse based on selected fitted tire data with varying slip angles/ratios. <br/>
 Fit the furthest data points from origin with curve to represent the maximum possible friction ellipse.
+
+### tireRelaxationLength_cornering.m
+
+Plots the point where lateral force (FY) reaches 63% of the steady-state after a step steer.
+
+### tireSpringRate_cornering.m
+
+Models tire as a compression spring, and plots the relationship between change in tire radius and normal load (FZ).
+
+### tireTemperatureAnalysis.m
+
+Compares the lateral force (FY) and coeffcient of friction with respect to temperature of two selected tire models. <br/>
+Also compares the tire temperature vs. time during the heating process.
+
+### tireWearAnalysis.m
+
+Plots and compares the grip level (coefficient of friction) change of different tires between repeated tests.
